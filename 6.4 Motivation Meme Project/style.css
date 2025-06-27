@@ -1,0 +1,16 @@
+body {
+    background-color:black;
+    color:white;
+    display:flex;
+    justify-content: center;
+}
+
+img {
+    border: 5px solid white;
+}
+
+.motivation-box {
+    text-align: center;
+    padding:10px;
+    margin-top: 100px;
+}
