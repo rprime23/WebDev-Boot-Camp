@@ -1,0 +1,60 @@
+/* NAV BAR STYLES */
+
+nav ul {
+list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.nav-li {
+    float:left;
+}
+
+.nav-li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav-li:hover {
+    text-decoration: underline;
+}
+
+nav {
+    background-color: lightblue;
+    color: black;
+    padding: 10px;
+}
+
+/* Form Styles */
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form {
+    margin: 20px 20px;
+}
+
+form * {
+    margin: 5px 0px;
+}
+
+/* BODY STYLES */
+.main {
+    width:100%;
+}
+
+/* Post List Styles */
+
+.post-item a:hover {
+    text-decoration: underline;
+}
+
+.forms-edit {
+    display: inline-block;
+}

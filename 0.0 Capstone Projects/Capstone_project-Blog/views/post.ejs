@@ -1,0 +1,29 @@
+<%-include("partials/head.ejs")%>
+
+<%-include("partials/navbar.ejs")%>
+
+<main class="main">
+    <h1 class="title"><%=post.title %></h1>
+
+    <p class="post-content-paragraph">
+        <%= post.content %>
+    </p>
+
+    <!-- <button class="edit-button">
+        <a href="/edit-post/<%= post.id %>">Edit Post</a>
+    </button>
+    <button class="delete-button">
+        <a href="/delete-post/<%= post.id %>">Delete Post</a>   
+    </button> -->
+
+    <form action="/delete-post/<%= post.id %>" method="POST" class="forms-edit">
+        <button type="submit">Delete Post</button>
+    </form>
+    <form action="/edit-post/<%= post.id %>" method="GET" class="forms-edit">
+        <button type="submit">Edit Post</button>       
+    </form>
+</main>
+
+
+
+<%-include("partials/footer.ejs")%>
